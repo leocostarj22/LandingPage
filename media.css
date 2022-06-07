@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 900px) {
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        flex-direction: column;
+        font-size: 20px;
+        padding: 20px;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+        
+    }
+    #principalimage{
+        display:none;
+    }
+    ul{
+        text-align: center;
+    }
+    span{
+        flex-direction: column;
+        font-size: 20px;
+        padding: 20px;
+    }
+}
